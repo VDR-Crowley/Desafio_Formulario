@@ -109,15 +109,22 @@ fieldset {
   color:hsl(246, 25%, 77%)
 }
 
-small {
+fieldset small {
   font-size: .7rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
   color: var(--grayish-blue);
 }
 
-small a {
+fieldset small a {
   color: var(--red);
+  margin-left: 5px;
   text-decoration: none;
+}
+
+fieldset small a:hover {
+  text-decoration: underline;
 }
 
 .error {

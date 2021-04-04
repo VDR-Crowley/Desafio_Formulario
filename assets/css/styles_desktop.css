@@ -3,7 +3,7 @@
   --green: hsl(154, 59%, 51%);
   --blue: hsl(248, 32%, 49%);
   --dark-blue: hsl(249, 10%, 26%);
-  --grayish-blue: hsl(246, 25%, 77%);
+  --grayish-blue: hsl(246, 25%, 70%);
 }
 
 * {
@@ -13,26 +13,109 @@
 }
 
 body {
-  
+  background-image: url("../images/bg-intro-desktop.png");
+  background-size: cover;
+  background-color: var(--red);
+  font-family: "Poppins", sans-serif;
 }
 
 main {
-
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  max-width: 1024px;
+  margin: auto;
 }
 
 #areaOne {
+  display: flex;
+  flex-direction: column;
+}
+
+#areaOne h1 {
+  color: white;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 2rem 0; 
+}
+
+#areaOne p {
+  color: white;
+}
+
+
+#areaTwo {
+  display: flex;
+  flex-direction: column;
 
 }
 
-#areaTwo {
-
+fieldset {
+  padding: 2rem;
+  border: 0;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 6px 8px #5c5c5c60;
 }
 
 #form {
+  display: flex;
+  flex-direction: column;
+}
 
+#form input {
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-size: 1rem
+}
+
+#form input[type="submit"] {
+  color: white;
+  background-color: var(--green);
+  margin: 1.5rem 0;
+  cursor: pointer;
+  border: 1px solid var(--green);
+  border-bottom: 3px solid hsl(154, 50%, 45%);
+  transition: .2s;
+}
+
+#form input[type="submit"]:hover {
+  background-color: hsl(154, 50%, 45%);
+  border-bottom: 3px solid hsl(154, 54%, 35%);
 }
 
 .button-roxo {
-  
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: var(--blue);
+  text-decoration: none;
+  box-shadow: 0px 5px 8px #5c5c5c80;
+  transition: .2s;
+}
+
+.button-roxo:hover {
+  background-color: hsl(248, 32%, 40%);
+}
+
+.button-roxo span {
+  color:hsl(246, 25%, 77%)
+}
+
+small {
+  font-size: .7rem;
+  text-align: center;
+  color: var(--grayish-blue);
+}
+
+small a {
+  color: var(--red);
+  text-decoration: none;
 }
 

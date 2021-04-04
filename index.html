@@ -7,8 +7,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   
+  <link rel="stylesheet" href="./assets/css/styles_desktop.css">
+  <link rel="stylesheet" href="./assets/css/styles_mobile.css">
+
   <title>Frontend Mentor | Intro component with sign up form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -29,38 +32,36 @@
       </p>
     </section>
   
-    <a href="#" class="button-roxo">
-      Try it free 7 days then $20/mo. thereafter
-    </a>
-  
     <section id="areaTwo">
-      <form id="form" method="#" action="#">
-        <label for="firstName">First Name</label>
-        <input type="text" id="firstName" placeholder="First Name">
-        
-        <label for="lastName">Last Name</label>
-        <input type="text" id="lastName" placeholder="Last Name">
-        
-        <label for="email">Email Address</label>
-        <input type="email" id="email" placeholder="Email Address">
-    
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Password">
-    
-        <input type="submit" id="submit" value="Claim your free trial">
-    
-        <small>
-          By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
-        </small>
-      </form>
+
+      <a href="#" class="button-roxo">
+        Try it free 7 days <span>then $20/mo. thereafter</span>
+      </a>
+
+      <fieldset>
+        <legend></legend>
+        <form id="form" method="#" action="#">
+          <label for="firstName"></label>
+          <input type="text" id="firstName" placeholder="First Name" required>
+          
+          <label for="lastName"></label>
+          <input type="text" id="lastName" placeholder="Last Name" required>
+          
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="Email Address" required>
+      
+          <label for="password"></label>
+          <input type="password" id="password" placeholder="Password" required>
+      
+          <input type="submit" id="submit" value="Claim your free trial">
+      
+          <small>
+            By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+          </small>
+        </form>
+      </fieldset>
     </section>
   </main>
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>

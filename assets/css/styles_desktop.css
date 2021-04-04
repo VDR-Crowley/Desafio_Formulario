@@ -70,7 +70,8 @@ fieldset {
   border: 1px solid gray;
   border-radius: 8px;
   margin-top: 1rem;
-  font-size: 1rem
+  font-size: 1rem;
+  position: relative;
 }
 
 #form input[type="submit"] {
@@ -117,5 +118,14 @@ small {
 small a {
   color: var(--red);
   text-decoration: none;
+}
+
+.error {
+  font-size: 11px;
+  background-image: url('../images/icon-error.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: content-box;
+  position: absolute;
 }
 

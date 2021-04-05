@@ -36,7 +36,7 @@
   }
 
 
-  fieldset small {
+  #form-container small {
     flex-direction: column;
   }
 
@@ -84,7 +84,7 @@
   }
 
 
-  fieldset small {
+  #form-container small {
     flex-direction: column;
   }
 

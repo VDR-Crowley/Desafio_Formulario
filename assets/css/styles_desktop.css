@@ -52,7 +52,7 @@ main {
 
 }
 
-fieldset {
+#form-container {
   padding: 2rem;
   border: 0;
   border-radius: 10px;
@@ -109,7 +109,7 @@ fieldset {
   color:hsl(246, 25%, 77%)
 }
 
-fieldset small {
+#form-container small {
   font-size: .7rem;
   text-align: center;
   display: flex;
@@ -117,13 +117,13 @@ fieldset small {
   color: var(--grayish-blue);
 }
 
-fieldset small a {
+#form-container small a {
   color: var(--red);
   margin-left: 5px;
   text-decoration: none;
 }
 
-fieldset small a:hover {
+#form-container small a:hover {
   text-decoration: underline;
 }
 

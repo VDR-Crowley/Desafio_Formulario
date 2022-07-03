@@ -35,17 +35,17 @@
       <div id="form-container">
         <form id="form" class="validator" method="POST">
           <label for="firstName"></label>
-          <input type="text" id="firstName" name="name" placeholder="First Name" data-rules="required|min=2">
-          
+          <input class="input" data-input="first" type="text" id="firstName" name="name" placeholder="First Name" data-rules="required|min=2">
+
           <label for="lastName"></label>
-          <input type="text" id="lastName" placeholder="Last Name" data-rules="required|min=2">
-          
+          <input class="input" data-input="last" type="text" id="lastName" placeholder="Last Name" data-rules="required|min=2">
+
           <label for="email"></label>
-          <input type="email" id="email" name="email" placeholder="Email Address" data-rules="email">
-      
+          <input class="input" data-input="email" type="text" id="email" name="email" placeholder="Email Address" data-rules="email|required">
+
           <label for="password"></label>
-          <input type="password" id="password" name="password" placeholder="Password" data-rules="required|min=4">
-          
+          <input class="input" data-input="password" type="password" id="password" name="password" placeholder="Password" data-rules="required|min=4">
+
           <input type="submit" value="Claim your free trial">
       
         </form>

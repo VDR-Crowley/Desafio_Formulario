@@ -1,34 +1,32 @@
 # Frontend Mentor - Intro component with sign up form
 
-![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
-
 ## Welcome! 👋
 
-Esse é o projeto do Frontend Mentor, um programa que ajuda programadores front-end a evoluir suas habilidades.
+That's Frontend Mentor, a project that helps front-end programs evolve their skills.
 
-## Sobre o programa
-- Pagina de Formulario de login
-- Validação do formulario de login
-- Responsividade da Pagina
-- 
-Thanks for checking out this front-end coding challenge.
+## About the program
+- Login form page
+- Login form validation
+- Page Responsiveness
 
-[Veja o resultado ao vivo](https://vdr-crowley.github.io/Desafio_Formulario/)
+[See the result live](https://vdr-crowley.github.io/Desafio_Formulario/)
 
+[Check out my profile on Front-end Mentor](https://www.frontendmentor.io/profile/VDR-Crowley)
 
-## Images do projeto pronto
-<div align="center">
-    <img src="./photos-project-end/campoLimpos.png" alt="campoLimpos" style="width:100%">
+## Images of the finished project
+
+<div>
+    <img src="./photos-project-end/campoLimpos.png" alt="campoLimpos" style="width:50%">
 </div>
-
-<div align="center">
-    <img src="./photos-project-end/todosOsCamposErro.png" alt="Todos os campos com erro" style="width:100%">
+<br />
+<div>
+    <img src="./photos-project-end/todosOsCamposErro.png" alt="Todos os campos com erro" style="width:50%">
 </div>
-
-<div align="center">
-    <img src="./photos-project-end/erroPassword.png" alt="Erro no campo password" style="width:100%">
+<br />
+<div>
+    <img src="./photos-project-end/erroPassword.png" alt="Erro no campo password" style="width:50%">
 </div>
-
-<div align="center">
-    <img src="./photos-project-end/mobile.png" alt="imagem nos dispositivos moveis" style="width:100%">
+<br />
+<div>
+    <img src="./photos-project-end/mobile.png" alt="imagem nos dispositivos moveis" style="width:50%" >
 </div>
